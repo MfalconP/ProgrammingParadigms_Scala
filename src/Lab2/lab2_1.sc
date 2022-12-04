@@ -8,6 +8,7 @@ def find[A] (list:List[A])(elem:A) : Int =
   }
 }
 
+
 val findNIL = find (List())
 findNIL ('a')
 findNIL(1)

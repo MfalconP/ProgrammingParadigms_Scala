@@ -12,7 +12,6 @@ def split3Tail[A](list: List[A]) =
 }
 
 
-
 split3Tail (List())
 
 split3Tail (List(1,2,3,4,5,6,7,8,9))

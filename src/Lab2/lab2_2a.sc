@@ -10,6 +10,7 @@ def split3Rec[A](list: List[A]): (List[A], List[A], List[A]) =
 }
 
 
+
 split3Rec (List())
 
 split3Rec (List(1,2,3,4,5,6,7,8,9))

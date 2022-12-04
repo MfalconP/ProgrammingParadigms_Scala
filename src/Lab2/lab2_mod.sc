@@ -9,6 +9,7 @@ def insert[A] (list:List[A]) (elem:A) (pos:Int): List[A] = {
 
 
 
+
 val insL = insert (List(1,2,3,4,5))
 
 insL (6) (0)
