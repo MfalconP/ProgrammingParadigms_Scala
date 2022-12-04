@@ -9,7 +9,6 @@ val list = List (1,2,3,4,5)
 
 
 
-
 insert(list, 6, 0)
 insert(list, 6, -10)
 insert(list, 6, 20)

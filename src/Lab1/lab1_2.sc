@@ -5,6 +5,7 @@ def difference [A](l1:List [A],l2:List [A]) : Int =
   else if l1.head == l2.head then difference(l1.tail, l2.tail)
   else 1+difference(l1.tail, l2.tail)
 
+
 val list1 = 1::1::2::4::Nil
 val list2 = 1::1::2::3::8::9::9::Nil
 

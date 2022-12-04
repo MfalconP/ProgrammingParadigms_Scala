@@ -5,6 +5,7 @@
 //  else if l1.head == l2.head then difference(l1.tail, l2.tail)
 //  else 1+difference(l1.tail, l2.tail)
 
+
 def difference [A](l1:List [A], l2:List [A]) : List[Int] =
   {
     def difMOD [A](x: Int, l1: List[A], l2: List[A]): List[Int] =

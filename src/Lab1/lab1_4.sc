@@ -8,7 +8,6 @@ def polishTime (para:(Int, Int)) : String =
 
 
 
-
 polishTime((5,15))
 
 polishTime((13,20))
