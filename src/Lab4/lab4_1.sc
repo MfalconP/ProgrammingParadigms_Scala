@@ -21,6 +21,7 @@ case class Machine (time:Int, next:List[Factory]) extends Factory
 
 
 
+
 //Metoda, obliczajaca czasy wszystkich drog do koncowej maszyny
 def timesFromDifRoutes (factL:List[Factory], time:Int): List[Int] =
 {
