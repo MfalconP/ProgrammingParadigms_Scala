@@ -10,6 +10,7 @@ def decode [A](x:A)(fs: List[A => A]): List[A] =
 
 
 
+
 //METODA BEZ FOR'A
 //def decode1 [A](x: A) (fs: List[A => A]): List[A] =
 //{
